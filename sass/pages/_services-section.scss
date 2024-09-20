@@ -1,0 +1,122 @@
+@use "../abstract/mixins";
+@use "../abstract/variables";
+
+.services {
+    // border: 1px solid red;
+    padding: 150px 80px;
+
+    &__info {
+        border-bottom: 1px solid #1C1C21;
+        padding-bottom: 40px;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+
+        div[heading] {
+
+            span {
+                margin: 0;
+                color: #797C86;
+            }
+
+            p {
+                color: #fff;
+                font-size: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+    }
+
+    &__main {
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 60px;
+
+        [main] {
+            // border: 1px solid red;
+
+            [main-first] {
+                // border: 1px solid red;
+
+                div {
+                    // border: 1px solid red;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    p {
+                        color: #797C86;
+                        font-size: 34px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                    }
+
+                    button {
+                        border-radius: 100px;
+                        background-color: #4A2CED;
+                        box-shadow: inset 4px 4px 17.4px rgb(255 255 255 / 28%);
+
+                        a {
+                            display: block;
+                            padding: 16px 40px;
+                            border-radius: 100px;
+                        }
+                    }
+                }
+
+                p {
+                    // border: 1px solid red;
+                    margin: 0;
+                    color: #797C86;
+                    margin-top: 16px;
+                    line-height: 150%;
+                }
+
+                p[fr] {
+                    width: 620px;
+                }
+            }
+
+            [main-second] {
+                // border: 1px solid red;
+                margin-top: 40px;
+
+                p {
+                    margin: 0;
+                }
+
+                p[fr] {
+                    // border: 1px solid red;
+                    color: #CACACE;
+                    margin-bottom: 16px;
+                }
+
+                div[fr] {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    // border: 1px solid red;
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 16px 18px;
+                        border: 1px solid #1C1C21;
+                        border-radius: 10px;
+
+                        p {
+                            color: #AFB0B6;
+                            text-transform: uppercase;
+                            line-height: 150%;
+                            // border: 1px solid red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
