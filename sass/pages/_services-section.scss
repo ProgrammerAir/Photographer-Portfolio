@@ -2,7 +2,7 @@
 @use "../abstract/variables";
 
 .services {
-    // border: 1px solid red;
+    
     padding: 150px 80px;
 
     &__info {
@@ -30,20 +30,20 @@
     }
 
     &__main {
-        // border: 1px solid red;
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding-top: 60px;
 
         [main] {
-            // border: 1px solid red;
+            
 
             [main-first] {
-                // border: 1px solid red;
+                
 
                 div {
-                    // border: 1px solid red;
+                    
                     display: flex;
                     gap: 10px;
                     align-items: center;
@@ -69,7 +69,7 @@
                 }
 
                 p {
-                    // border: 1px solid red;
+                    
                     margin: 0;
                     color: #797C86;
                     margin-top: 16px;
@@ -82,7 +82,7 @@
             }
 
             [main-second] {
-                // border: 1px solid red;
+                
                 margin-top: 40px;
 
                 p {
@@ -90,7 +90,7 @@
                 }
 
                 p[fr] {
-                    // border: 1px solid red;
+                    
                     color: #CACACE;
                     margin-bottom: 16px;
                 }
@@ -99,7 +99,7 @@
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
-                    // border: 1px solid red;
+                    
                     div {
                         display: flex;
                         align-items: center;
@@ -112,7 +112,7 @@
                             color: #AFB0B6;
                             text-transform: uppercase;
                             line-height: 150%;
-                            // border: 1px solid red;
+                            
                         }
                     }
                 }
